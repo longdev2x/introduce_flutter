@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   // Tương tự nhá, ok ấn thử đi
-                  ref.read(homeControllerProvider.notifier).increase();
+                  ref.read(homeControllerProvider.notifier).decrease();
                 },
                 child: Text("Giảm"),
               ),
